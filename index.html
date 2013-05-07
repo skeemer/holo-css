@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://vezquex.com/projects/holo-css/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width"> 
+<link href="css/holo.css" rel="stylesheet" type="text/css">
+<title>Holo CSS</title>
+
+<body class="holo holo-dark" screen_capture_injected="true">
+<div id="accent" class="holo-accent-blue">
+
+<div class="holo-action-bar">
+	<h1><a href="#" class="holo-up">Holo CSS</a></h1>
+	<ul class="holo-action-buttons">
+		<li><a href="#" class="holo-search" title="Search">Q</a></li>
+		<li><a href="#" class="holo-action-overflow">Ξ</a></li>
+	</ul>
+
+	<div class="holo-fixed-tabs">
+		<ul id="nav">
+			<li><a href="#home" class="current-tab">Options</a></li>
+			<li><a href="#examples">Examples</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+	</div>
+</div>
+
+
+<div id="license" class="holo-content" style="display: none;">
+	<h1>The MIT License (MIT)</h1>
+	<p>
+	  Copyright (c) 2012 Vezquex
+	</p>
+  <p>
+	  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+	</p>
+  <p>
+	  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+	</p>
+  <p>
+	  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  </p>
+</div>
+
+
+<div id="about" class="holo-content" style="display: none;">
+	<p>
+	Holo CSS attempts to recreate the interface of Android 4.0 Ice Cream Sandwich for web browsers. Patches are welcome.
+	</p><p>
+	Tabs become a 2nd row when the window is narrow.
+	</p><p>
+	The action bar remains fixed as long as the window is tall.
+	</p><p>
+	</p><ul class="holo-list">
+		<li><a href="http://www.vezquex.com/">Created by Vezquex.</a></li>
+		<li><a href="http://vezquex.com/projects/holo-css/#license" class="holo-toggle">MIT License</a></li>
+	</ul>
+</div>
+
+
+<div id="home" class="holo-content" style="display: block;">
+  <h2 class="holo-divider">Theme</h2>
+  <ul class="holo-list">
+  	<li>
+  		<div class="holo-switch">
+  			<input type="checkbox" checked="" id="dark">
+  			<label class="holo-label" for="dark">
+  			Dark Theme
+  			</label>
+  		</div>
+  	</li>
+  </ul>
+
+  <h2 class="holo-divider">Accent Color</h2>
+  <form name="accent">
+    <ul class="holo-list">
+    	<li>
+    		<div class="holo-radio">
+    			<input name="accent-color" id="ac-r" value="holo-accent-red" type="radio">
+    			<label class="holo-label" for="ac-r">
+    			Red
+    			</label>
+    		</div>
+    	</li>
+    	<li>
+    		<div class="holo-radio">
+    			<input name="accent-color" id="ac-g" value="holo-accent-green" type="radio">
+    			<label class="holo-label" for="ac-g">
+    			Green
+    			</label>
+    		</div>
+    	</li>
+    	<li>
+    		<div class="holo-radio">
+    			<input name="accent-color" id="ac-b" value="holo-accent-blue" type="radio" checked="">
+    			<label class="holo-label" for="ac-b">
+    			Blue
+    			</label>
+    		</div>
+    	</li>
+    	<li>
+    		<div class="holo-radio">
+    			<input name="accent-color" id="ac-p" value="holo-accent-purple" type="radio">
+    			<label class="holo-label" for="ac-p">
+    			Purple
+    			</label>
+    		</div>
+    	</li>
+    	<li>
+    		<div class="holo-radio">
+    			<input name="accent-color" id="ac-o" value="holo-accent-orange" type="radio">
+    			<label class="holo-label" for="ac-o">
+    			Orange
+    			</label>
+    		</div>
+    	</li>
+    </ul>
+  </form>
+</div>
+
+
+<div id="examples" class="holo-content" style="display: none;">
+  <h2 class="holo-divider">Forms</h2>
+
+  <ul class="holo-list">
+  	<li>
+  		<div class="holo-switch">
+  			<input type="checkbox" id="unchecked">
+  			<label class="holo-label" for="unchecked">
+  			Toggle Switch
+  			</label>
+  		</div>
+  	</li>
+  </ul>
+
+  <div class="holo-field">
+    <div class="holo-field-bracket"></div>
+    <input type="text" value="Text Field">
+  </div>
+
+  <div class="holo-field">
+    <div class="holo-field-bracket"></div>
+    <input type="text" placeholder="Text Field Hint">
+  </div>
+
+  <div class="holo-field">
+    <div class="holo-field-bracket"></div>
+    <input type="text" disabled="" value="Disabled Text Field">
+  </div>
+
+  <div class="holo-field">
+    <div class="holo-field-bracket"></div>
+    <textarea>Text Area</textarea>
+  </div>
+
+  <!--
+  <p>
+  <select class="holo-spinner">
+  	<option>Spinner &lt;select&gt;</option>
+  	<option>Option 2</option>
+  	<option>Option 3</option>
+  	<option>Option 4</option>
+  </select>
+  </p>
+  -->
+
+  <div class="p holo-spinner">
+  	<a href="http://vezquex.com/projects/holo-css/#">Spinner &lt;a&gt;</a>
+  	<ul class="holo-list">
+  		<li><a href="http://vezquex.com/projects/holo-css/#">Option 2</a></li>
+  		<li><a href="http://vezquex.com/projects/holo-css/#">Option 3</a></li>
+  		<li><a href="http://vezquex.com/projects/holo-css/#">Option 4</a></li>
+  	</ul>
+  </div>
+
+  <!--
+  <div class="">
+  <input /> Slider
+
+  <input /> ***** Stars
+
+  Set Time
+  Cancel
+  Set
+  </div>
+  -->
+
+  <div class="holo-buttons">
+    <button class="holo-button">Button</button>
+  </div>
+
+  <div class="holo-buttons holo-plain">
+    <button class="">Cancel</button>
+    <button class="">Done</button>
+  </div>
+
+  <h2 class="holo-divider">List</h2>
+  <ul class="holo-list">
+  	<li>Item 1</li>
+  	<li>Item 2</li>
+  	<li><a href="http://vezquex.com/projects/holo-css/#">Link to nowhere</a></li>
+  	<li>Item 3</li>
+  	<li>Item 4</li>
+  </ul>
+
+</div>
+</div>
+
+<!--
+-->
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	$('body').addClass('js')
+	showSection()
+
+	$('#dark').change(function(){
+		$('body')
+			.toggleClass('holo-dark')
+			.toggleClass('holo-light')
+	})
+
+	$("input[name=accent-color]").change(function(){
+		$('#accent').removeClass().addClass($(this).val())
+	})
+
+
+	$('.holo-spinner > a').click(function(ev){
+		$(this).next().toggle();
+		ev.preventDefault();
+	});
+
+	// var refEl = function(selector){ return $($(selector).attr('href')); }
+	// $('.holo-toggle').each(function(){
+	// 	refEl(this).hide()
+	// });
+	// $('.holo-toggle').click(function(){
+	// 	refEl(this).toggle()
+	// });
+
+})
+
+window.addEventListener('hashchange', showSection, false);
+
+function showSection(){
+	$('.holo-content').hide()
+	var h = window.location.hash||'#home'
+	$(h).show()
+	console.log(h, $(h))
+	$('body').scrollTop(0)
+	$('.current-tab').removeClass('current-tab')
+	$('#nav a[href="'+h+'"]').addClass('current-tab')
+	$('#nav').removeClass('on')
+}
+
+</script>
+</body></html>
